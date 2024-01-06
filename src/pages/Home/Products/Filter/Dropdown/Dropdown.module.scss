@@ -1,0 +1,32 @@
+.dropdown {
+	width: 225px;
+	height: 45px;
+
+	@media (max-width: 768px) {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.current {
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 1px solid var(--grey);
+		padding: 0px 15px;
+		border-radius: 4px;
+		cursor: pointer;
+
+		h1 {
+			font-size: 16px;
+			color: var(--navy);
+			font-weight: 600;
+		}
+
+		svg {
+			fill: var(--navy);
+			position: relative;
+			top: 1px;
+		}
+	}
+}

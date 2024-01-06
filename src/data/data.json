@@ -1,0 +1,68 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Black Hoodie",
+			"sizes": ["S", "M", "L", "XL"],
+			"price": 499.99,
+			"added_at": "2023-01-01T12:00:00Z",
+			"photos": ["./hoodies/hoodie_black.png"]
+		},
+		{
+			"id": 2,
+			"name": "Gray Hoodie",
+			"sizes": ["S", "M", "L"],
+			"price": 449.99,
+			"added_at": "2023-01-02T14:30:00Z",
+			"photos": ["./hoodies/hoodie_gray.png"]
+		},
+		{
+			"id": 3,
+			"name": "Pink Hoodie",
+			"sizes": ["M", "L", "XL"],
+			"price": 479.99,
+			"added_at": "2023-01-03T10:45:00Z",
+			"photos": ["./hoodies/hoodie_pink.png"]
+		},
+		{
+			"id": 4,
+			"name": "Blue Hoodie",
+			"sizes": ["S", "M", "XL"],
+			"price": 459.99,
+			"added_at": "2023-01-04T08:15:00Z",
+			"photos": ["./hoodies/hoodie_blue.png"]
+		},
+		{
+			"id": 5,
+			"name": "Green Hoodie",
+			"sizes": ["M", "L", "XL"],
+			"price": 489.99,
+			"added_at": "2023-01-05T16:20:00Z",
+			"photos": ["./hoodies/hoodie_green.png"]
+		},
+		{
+			"id": 6,
+			"name": "Yellow Hoodie",
+			"sizes": ["S", "M", "L"],
+			"price": 459.99,
+			"added_at": "2023-01-07T13:45:00Z",
+			"photos": ["./hoodies/hoodie_yellow.png"]
+		},
+		{
+			"id": 7,
+			"name": "Purple Hoodie",
+			"sizes": ["M", "L", "XL"],
+			"price": 489.99,
+			"added_at": "2023-01-08T09:00:00Z",
+			"photos": ["./hoodies/hoodie_purple.png"]
+		},
+		{
+			"id": 8,
+			"name": "Turqose Hoodie",
+			"sizes": ["S", "M", "XL"],
+			"price": 479.99,
+			"added_at": "2023-01-09T15:10:00Z",
+			"photos": ["./hoodies/hoodie_turqoise.png"]
+		}
+	]
+}

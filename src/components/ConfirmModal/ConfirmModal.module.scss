@@ -1,0 +1,86 @@
+.modal {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	z-index: 50;
+	background: rgba($color: #000000, $alpha: 0.5);
+
+	.content {
+		width: 100%;
+		max-width: 400px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		background: var(--white);
+		border-radius: 4px;
+		padding: 20px;
+
+		.header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			h1 {
+				color: var(--dark);
+
+				@media (max-width: 400px) {
+					font-size: 28px;
+				}
+			}
+
+			button {
+				background: none;
+				border: none;
+				cursor: pointer;
+
+				svg {
+					width: 30px;
+					height: 30px;
+					fill: var(--dark);
+				}
+			}
+		}
+
+		p {
+			color: var(--dark-grey);
+
+			@media (max-width: 400px) {
+				font-size: 14px;
+			}
+		}
+
+		.buttons {
+			width: 100%;
+			display: flex;
+			gap: 10px;
+			margin-top: 10px;
+
+			@media (max-width: 400px) {
+				flex-direction: column;
+			}
+
+			button {
+				width: 100%;
+				padding: 8px;
+				font-size: 18px;
+				font-weight: 500;
+				cursor: pointer;
+				background: var(--navy);
+				border: 2px solid var(--navy);
+				border-radius: 4px;
+				color: var(--white);
+
+				&:last-child {
+					background: none;
+					color: var(--navy);
+				}
+			}
+		}
+	}
+}

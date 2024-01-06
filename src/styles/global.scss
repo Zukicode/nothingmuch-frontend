@@ -1,0 +1,30 @@
+@use './_colors';
+@use './_fonts';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--white);
+}
+
+/*Custom scrollbar*/
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--grey);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 12px;
+	background: var(--navy);
+}
+
+/*Custom scrollbar*/
